@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Details Form</title>
+<link rel="stylesheet" href="l_c.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="login_credintial.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name" required> 
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label> 
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Education Details</legend>
+        <label for="college_name">College Name:</label>
+        <input type="text" id="college_name" name="college_name" required>
+    </fieldset>
+    <div class="container">
+        <h2>Contact Details</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"> 
+     <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="state">State:</label>   
+    </div>
+   
+
+        <button type="submit">Register</button>
+
+   
+</form>
+<script src="register.js"></script>
+</body>
+</html> ``
